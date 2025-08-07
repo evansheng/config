@@ -112,6 +112,6 @@ source $ZSH/oh-my-zsh.sh
 # users are encouraged to define aliases within the ZSH_CUSTOM folder.
 # For a full list of active aliases, run `alias`.
 #
-alias config='/usr/bin/git --git-dir=/Users/evan_sheng/.cfg/ --work-tree=/Users/evan_sheng'
+alias config='/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME'
 alias subl="/Applications/Sublime\ Text.app/Contents/SharedSupport/bin/subl"
 
